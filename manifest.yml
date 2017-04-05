@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: Z2CSA
+  host: Z2CSA
+  disk_quota: 1024M
+  services:
+  - Speech to Text-tv
+  - Text to Speech-tm
+  - Visual Recognition-x9
